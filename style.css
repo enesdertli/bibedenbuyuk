@@ -1,0 +1,193 @@
+
+form {
+  max-width: 460px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* ! Header */
+.header {
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
+  /* *position: sticky;
+    *top: 0;
+    *z-index: 10; header neden kaymıyor???*/
+}
+.line {
+  border: 1px solid black;
+}
+.header .header-vol-1,
+.header .header-vol-2 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.link {
+  margin: 10px;
+  margin-left: 15px;
+  font-size: 18px;
+  color: #111127;
+  text-decoration: none;
+  /*transition: 200ms all;*/
+}
+.link:hover {
+  transform: scale(1.06);
+  transition: 0.08s ease-in all;
+  color: black;
+}
+/* ! ---------- */
+/* .logo-img{
+    width: 60px;
+    height: auto;
+    object-fit: cover;
+  
+  } */
+.main-img {
+  text-align: center;
+  margin-top: 50px;
+}
+#img-main {
+  transition: 120ms all;
+}
+#img-main:hover {
+  transform: scale(1.06);
+}
+#img-main {
+  border-radius: 6px;
+}
+.space {
+  height: 40px;
+}
+/* !  hey
+  /* ? hey
+  /** hey 
+  /*TODO hey
+  Section 1
+  */
+.section-1 h3 {
+  text-align: center;
+  font: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  color: #343a40;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-top: 25px;
+}
+/*
+  
+  Section 2
+  
+  */
+
+.section-2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.section-2 a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+  height: auto;
+  background: #036666;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+}
+.section-2 a:hover {
+  background: #99e2b4;
+  color: #036666;
+  transform: scale(1.04);
+  transition: 0.04s ease-in all;
+}
+.section-2 a img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+}
+.section-2 a .title {
+  font-size: 18px;
+  color: #111;
+}
+.card {
+  box-shadow: 0.1px 0.1px 15px #111127;
+}
+.card-title,
+.card-text {
+  text-align: center;
+}
+.btn {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-text {
+  height: 120px;
+}
+.section-2 .card img {
+  height: 210px;
+  object-fit: cover;
+}
+.card-body {
+  height: 250px;
+  background-color: #f9f3ee;
+}
+/* ! Giysi img'ları */
+#jean-3 {
+  object-fit: contain;
+}
+
+/* ! Açıklamalar */
+#product_exp {
+  display: none;
+  height: auto;
+  width: max-content;
+  z-index: 10;
+  position: fixed;
+}
+
+/* ! slide */
+.slide {
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 600px;
+}
+
+#bigcard {
+  display: none;
+  height: auto;
+  width: max-content;
+  z-index: 10;
+  position: fixed;
+  box-shadow: -4px 23px 73px black;
+  top: 15px;
+}
+.outslider {
+  background: #f9f3ee;
+  height: 400px;
+}
+.nav-bar-write{
+  font-size: 20px;
+  text-decoration: none;
+}
+.welcome{
+  font-size: 20px;  
+  margin-top: 12px;
+  margin-left: -40px;
+  font-size: 18px;
+  color: #111127;
+  text-decoration: none;
+}
+
+
